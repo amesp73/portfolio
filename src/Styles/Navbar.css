@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background: #ced8ff;
+}
+
+.logo{
+    height: 50px;
+    margin: 15px;
+}
+
+.navbar{
+    width: 500px;
+    height: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    border-radius: 50px;
+}
+
+.toggle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
