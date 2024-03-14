@@ -8,37 +8,27 @@
 .container{
     width: 100vw;
     min-height: 100vh;
-    background: #ced8ff;
+    background: #E6E6FA;
 }
 
 .logo{
-    height: 50px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 15px;
+    width: 100px;
+    margin: 0px;
 }
 
 .navbar{
-    width: 500px;
-    height: 40px;
-    display: inline-block;
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 10px 7%;
-    border-radius: 50px;
-    margin-left: 25%;
-    margin-right: 20%;
+    padding: 15px 3%;
 }
 
 .toggle-icon{
-    width: 50px;
+    width: 40px;
     cursor: pointer;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 15px;
+    margin: 1px;
 }
 
 ul{
@@ -50,7 +40,7 @@ ul{
 ul li{
     display: inline-block;
     margin: 0px 20px;
-    font-size: 17px;
+    font-size: 18px;
     cursor: pointer;
 }
 

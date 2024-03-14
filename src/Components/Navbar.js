@@ -8,15 +8,15 @@ import dark from '../Media/moon.jpeg';
 function Navbar() {
   return (
     <div className='container'>
-        <img src={Logo} alt='' className='logo'/>
         <div className='navbar'>
+            <img src={Logo} alt='' className='logo'/>
             <ul>
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
+            <img src={dark} alt='' className='toggle-icon'/>
         </div>
-        <img src={dark} alt='' className='toggle-icon'/>
     </div>
   )
 }
