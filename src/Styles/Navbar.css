@@ -13,24 +13,32 @@
 
 .logo{
     height: 50px;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
 
 .navbar{
     width: 500px;
-    height: 20px;
+    height: 40px;
     display: inline-block;
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 15px 7%;
+    padding: 10px 7%;
     border-radius: 50px;
+    margin-left: 25%;
+    margin-right: 20%;
 }
 
 .toggle-icon{
     width: 50px;
     cursor: pointer;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
 
 ul{
@@ -42,6 +50,14 @@ ul{
 ul li{
     display: inline-block;
     margin: 0px 20px;
-    font-size: 15px;
+    font-size: 17px;
     cursor: pointer;
+}
+
+ul li:hover {
+    color: gray;
+}
+
+ul li:active {
+    color: grey;
 }
