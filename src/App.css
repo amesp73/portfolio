@@ -1,4 +1,4 @@
-.App {
+/* .App {
   width: 100%;
   height: auto;
   display: flex;
@@ -37,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+.App{
+  width: 100vw;
+  min-height: 100vh;
+  background: #E6E6FA;
+  transition: 0.5s;
+}
+
+.App.dark{
+  background: black;
+} */

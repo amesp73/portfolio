@@ -5,9 +5,14 @@ import light from '../Media/sun.jpeg';
 import dark from '../Media/moon.jpeg';
 
 
-function Navbar() {
+function Navbar({theme, setTheme}) {
+
+    const toggle_mode = () => {
+        theme === 'light' ? setTheme('dark') : setTheme('light');
+        // console.log("clicked");
+    }
+
   return (
-    <div className='container'>
         <div className='navbar'>
             <img src={Logo} alt='' className='logo'/>
             <ul>
@@ -15,9 +20,8 @@ function Navbar() {
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
-            <img src={dark} alt='' className='toggle-icon'/>
+            <img onClick={() => {toggle_mode()}} src={theme === 'light' ? light : dark} alt='' className='toggle-icon'/>
         </div>
-    </div>
   )
 }
 
