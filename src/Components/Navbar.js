@@ -20,7 +20,7 @@ function Navbar({theme, setTheme}) {
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
-            <img onClick={() => {toggle_mode()}} src={theme === 'light' ? light : dark} alt='' className='toggle-icon'/>
+            <img onClick={() => {toggle_mode()}} src={theme === 'light' ? dark : light} alt='' className='toggle-icon'/>
         </div>
   )
 }
