@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
+import Footer from './Components/Footer/Footer.js';
+import Navbar from './Components/Navbar/Navbar.js';
 import { useEffect, useState } from 'react';
 
 
@@ -10,7 +10,7 @@ function App() {
   //will search local storage for the current theme if available to store that
   const currentTheme = localStorage.getItem('currentTheme');
 
-  //initially website will be in lioght mode
+  //initially website will be in light mode
   const [theme, setTheme] = useState(currentTheme ? currentTheme : 'light');
 
   //whenever theme is updated with toggle icon it will execute this function
