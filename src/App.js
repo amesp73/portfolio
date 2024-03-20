@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Footer from './Components/Footer/Footer.js';
 import Navbar from './Components/Navbar/Navbar.js';
+import About from './Components/About/About.js';
 import { useEffect, useState } from 'react';
 
 
@@ -20,13 +21,9 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <Router>
-        <Navbar theme={theme} setTheme={setTheme}/>
-        <Routes>
-
-        </Routes>
-        <Footer />
-      </Router>
+      <Navbar theme={theme} setTheme={setTheme}/>
+      <About />
+      <Footer />
     </div>
   );
 }

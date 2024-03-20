@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-import Logo from './flower.jpeg';
-import light from './sun.jpeg';
-import dark from './moon.jpeg';
+import Logo from '../../Media/flower.jpeg';
+import light from '../../Media/sun.jpeg';
+import dark from '../../Media/moon.jpeg';
 
 
 function Navbar({theme, setTheme}) {
