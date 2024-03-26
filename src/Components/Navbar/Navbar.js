@@ -18,6 +18,7 @@ function Navbar({theme, setTheme}) {
             <img src={Logo} alt='' className='logo'/>
             <div className='headerMenu'>
                 <Link className='headerItem'>About</Link>
+                <Link className='headerItem'>Skills</Link>
                 <Link className='headerItem'>Projects</Link>
                 <Link className='headerItem'>Contact</Link>
             </div>

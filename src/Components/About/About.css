@@ -3,6 +3,12 @@
     width: 100vw;
     margin: 0 auto;
     overflow: hidden;
+    transition: 0.5s;
+}
+
+.dark .about{
+    background: #222;
+    color: #fff;
 }
 
 .aboutContent{

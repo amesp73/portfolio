@@ -1,8 +1,8 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Footer from './Components/Footer/Footer.js';
 import Navbar from './Components/Navbar/Navbar.js';
 import About from './Components/About/About.js';
+import Skills from './Components/Skills/Skills.js';
 import { useEffect, useState } from 'react';
 
 
@@ -23,6 +23,7 @@ function App() {
     <div className={`App ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme}/>
       <About />
+      <Skills />
       <Footer />
     </div>
   );
