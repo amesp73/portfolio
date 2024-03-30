@@ -14,6 +14,7 @@
     transition: 0.5s;
     top: 0;
     margin: 0 auto;
+    position: fixed;
 }
 
 .dark .navbar{
@@ -42,3 +43,4 @@
 .headerItem:active {
     color: grey;
 }
+

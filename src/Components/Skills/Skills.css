@@ -1,0 +1,8 @@
+img{
+    width: 80px;
+}
+
+.dark .skills{
+    background: #222;
+    color: #fff;
+}
