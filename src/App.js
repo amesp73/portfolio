@@ -3,6 +3,7 @@ import Footer from './Components/Footer/Footer.js';
 import Navbar from './Components/Navbar/Navbar.js';
 import About from './Components/About/About.js';
 import Skills from './Components/Skills/Skills.js';
+import Projects from './Components/Projects/Projects.js';
 import { useEffect, useState } from 'react';
 
 
@@ -24,6 +25,7 @@ function App() {
       <Navbar theme={theme} setTheme={setTheme}/>
       <About />
       <Skills />
+      <Projects />
       <Footer />
     </div>
   );
